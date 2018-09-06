@@ -1,0 +1,177 @@
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.inline{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+/*宣传css*/
+#publicity{
+	width: 100%;
+    margin: 0 auto;
+}
+.pb-col1{
+	display: block;
+}
+.pb-col1 img{
+	width: 100%;
+	display: block;
+}
+.pb-h{
+	height: 450px;
+}
+.pb-col2{
+	background-color: #fff;
+}
+.col2-l-img{
+	width: 500px;
+	height: 200px;
+}
+.col2-l-area{
+	margin-top: 60px;
+	width: 500px;
+	position: relative;
+}
+.col2-l-main{
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+.col2-l-title{
+	font-size: 16px;
+	line-height: 32px;
+}
+.col2-l-m{
+	font-size: 16px;
+	line-height: 32px;
+	margin-top: 40px;
+}
+.pb-col2-link-btn{
+	background-color: #1195fe;
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	border-radius: 10px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+.pb-col2-link-lj{
+	font-size: 14px;
+	color: #1195fe;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.pb-col2-left,.pb-col2-right{
+	float: left;
+	padding-left: 150px;
+}
+.pb-col2-right{
+	margin-top: 60px;
+}
+.pb-col2-main p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+	margin-top: 10px;
+}
+.pb-color1{
+	background-color: #edf2f7;
+}
+.pb-col2-main{
+	overflow: hidden;
+}
+.pb-m-img{
+	float: left;
+	margin-right: 70px;
+	width: 180px;
+}
+.pb-m-img img{
+	width: 100%;
+	border: none;
+}
+.pb-col2-bottom{
+	width: 100%;
+}

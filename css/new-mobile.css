@@ -1,0 +1,73 @@
+.pb-col1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.m-pb-left{
+	float: left;
+	margin-left: 0.75rem;
+	margin-right: 0.4rem;
+}
+.m-pb-left img{
+	width: 1.25rem;
+	height: 2.2rem;
+	display: block;
+}
+.m-pb-right{
+	float: left;
+	width: 80%;
+}
+.m-pb-col2-top{
+	overflow: hidden;
+}
+.m-pb-col2-top{
+	padding-top: 1.25rem;
+	margin-bottom: 1rem;
+}
+.col2-l-title{
+	font-size: 0.6rem;
+	color: #000;
+}
+.col2-line-height{
+	line-height: 2.2rem;
+}
+.col2-l-m{
+	font-size: 0.6rem;
+	color: #000;
+}
+.pb-col2-link-btn{
+	background-color: #1195fe;
+	color: #fff;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+	border-radius: 0.8rem;
+	margin: 0 0.3rem;
+	padding: 0.3rem 0.5rem;
+
+}
+.pb-col2-link-lj{
+	font-size: 0.6rem;
+	color: #1195fe;
+	line-height: 1rem;
+
+}
+.m-pb-vcode{
+	width: 100%;
+	display: block;
+}
+.m-pb-col2-tetx{
+	font-size: 0.6rem;
+	line-height: 0.7rem;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.m-text-area1{
+	overflow: hidden;
+	width: 100%;
+}
+.m-text-area1 span{
+	width: 50%;
+	display: block;
+	float: left;
+	text-align: center;
+}
